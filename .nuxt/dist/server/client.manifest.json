@@ -1,0 +1,15 @@
+{
+  "@vite/client": {
+    "isEntry": true,
+    "file": "@vite/client",
+    "css": [],
+    "module": true,
+    "resourceType": "script"
+  },
+  "/Users/mikaenys/opt/miniconda3/envs/nuxthemsidanotion/node_modules/nuxt/dist/app/entry.mjs": {
+    "resourceType": "script",
+    "module": true,
+    "isEntry": true,
+    "file": "/Users/mikaenys/opt/miniconda3/envs/nuxthemsidanotion/node_modules/nuxt/dist/app/entry.mjs"
+  }
+}
