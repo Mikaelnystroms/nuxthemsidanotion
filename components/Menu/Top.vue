@@ -9,7 +9,7 @@
             <ul class="flex gap-10">
                 <li><NuxtLink to="/">Home</NuxtLink></li>
                 <li><NuxtLink to="/blog">Blog</NuxtLink></li>
-                <li><NuxtLink to="/contact">Resumé</NuxtLink></li>
+                <li><NuxtLink to="/resume">Resumé</NuxtLink></li>
                 <li><NuxtLink to="/mywork">Projects</NuxtLink></li>
             </ul>
         </div>
