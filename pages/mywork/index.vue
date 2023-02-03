@@ -4,7 +4,7 @@ const { data: projects } = await useFetch('https://notion-api.splitbee.io/v1/tab
 </script>
 <template>
     <main>
-        <section class="container py-16">
+        <section class="container py-10">
             <div class="grid sm:grid-cols-2 gap-5">
                 <PortfolioCard class="portfolioimages"
                     v-for="project in projects"
@@ -12,6 +12,7 @@ const { data: projects } = await useFetch('https://notion-api.splitbee.io/v1/tab
                     :title="project.Name"
                     :excerpt="project.Text"
                     :image="project['Files & media'][0].url"
+                    :tag="project.Tag"
                 />
             </div>
         </section>

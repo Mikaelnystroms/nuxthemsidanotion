@@ -6,13 +6,17 @@ const { data, pending } = useLazyAsyncData(`notion-${route.params.id}`, () =>
   $notion.getPageBlocks(route.params.id.toString())
 )
 const { mapPageUrl, pageLinkOptions } = useProps()
+type Theme = 'light' | 'dark';
+const setColorTheme = (newTheme: Theme) => {
+  useColorMode().preference = newTheme
+}
 </script>
 
 <template>
   <section>
-    <div v-if="pending" class="notion">Loading...</div>
-      <div class="container py-16" v-else>
-        <NotionRenderer :blockMap="data" fullPage prism katex :mapPageUrl="mapPageUrl" :pageLinkOptions="pageLinkOptions" />
+    <div v-if="pending">Loading... </div>
+        <div v-else>
+          <NotionRenderer class="py-16" :blockMap="data" fullPage prism katex :mapPageUrl="mapPageUrl" :pageLinkOptions="pageLinkOptions" />
       </div>
   </section>
 </template>

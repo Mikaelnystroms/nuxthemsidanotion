@@ -7,11 +7,11 @@ const { mapPageUrl, pageLinkOptions } = useProps();
 </script>
 
 <template>
-  <div class="py-20">
+  <div class="py-10">
     <main>
         <section class="container py-16">
             <div class="grid sm:grid-cols-3 gap-5">
-                <BlogCard class="blogimages"
+                <BlogCard
                     v-for="post in posts"
                     :key="post"
                     :title="post.Name"
@@ -22,8 +22,5 @@ const { mapPageUrl, pageLinkOptions } = useProps();
             </div>
         </section>
     </main>
-    <!-- <NotionRenderer 
-    v-for="post in posts"
-    :blockMap="data" fullPage prism katex :mapPageUrl="mapPageUrl" :pageLinkOptions="pageLinkOptions" /> -->
   </div>
 </template>

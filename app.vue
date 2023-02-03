@@ -1,4 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+type Theme = 'light' | 'dark';
+const setColorTheme = (newTheme: Theme) => {
+  useColorMode().preference = newTheme
+}
+</script>
 
 <template>
   <div>
@@ -13,11 +18,11 @@
 }
 
 .animated-text {
-    background-image: linear-gradient(45deg,#F17C58, #E94584, #24AADB , #27DBB1,#FFDC18, #FF3706);
+    background-image: linear-gradient(45deg,#1E90FF, #9370DB, #B22222, #9B30FF, #FF4500);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 600% 100%;
-    animation: gradient 15s linear infinite;
+    animation: gradient 10s linear infinite;
     animation-direction: alternate;
 }
 
@@ -36,31 +41,36 @@ object-fit: cover;
   transform: scale(1.1);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
-.portfolioimages{
-object-fit: fill;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: 600ms cubic-bezier(0.16, 1, 0.3, 1);
-}
-.portfolioimages:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+
+.nuxt-link-exact-active {
+  font-weight: bolder;
 }
 
 body {
   margin: 0;
-  padding: 2rem;
+  padding: 1rem;
   box-sizing: border-box;
 }
 .notion {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 12px;
+  color: #777;
 }
 .notion-page-cover {
   max-width: 1000px;
   box-sizing: border-box;
   border-radius: 25px;
+}
+
+.dark-mode body {
+  background-color: #121212;
+  color: #ebf4f1;
+}
+.sepia-mode body {
+  background-color: #f1e7d0;
+  color: #433422;
 }
 
 @media screen and (max-width: 600px) {
