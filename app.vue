@@ -62,6 +62,7 @@ body {
   align-items: center;
   border-radius: 12px;
   color: #777;
+  font-size: large;
 }
 .notion-page-cover {
   max-width: 1000px;

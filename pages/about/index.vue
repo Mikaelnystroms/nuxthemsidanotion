@@ -21,7 +21,7 @@
                                         <br>
                                         I live in Sweden, I'm a positive tech enthusiast and a fast learner.
                                     </h1>
-                                    <div class="text-lato mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+                                    <div class="text-lato tracking-normal font-semibold mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
                                         <p>For as long as I can remember i've been interested in gadgets and technology. Since I was little I've been teaching my family what they can do with their electronics, and how to do it. My love for both teaching and technology has only gotten stronger since and I believe technology can be used to make the world better.</p>
                                         <p>Today I'm studying in the program 'AI Business Consultant' In Stockholm and I'm really excited for what artifical intelligence can enable. It's a lot of fun learning what's possible with just a few lines of code and some imagination, and I'm eager to learn more about programming.</p>
                                         <p>Before I studied AI Business Consulting I was in the Swedish Military, first as a Mine Clearance Diver and then after university studies I went on to become a Naval Officer, where I got to lead my team of divers and orchestrate operations onboard a Swedish Warship. I'm now looking for new opportunities and I am excited for the future.</p>
