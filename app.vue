@@ -92,9 +92,6 @@ body {
   background-size: 600% 100%;
   animation: gradient 10s linear infinite;
   animation-direction: alternate;
-  box-shadow: 0 2px 2px rgba(178, 0, 255, 0.2),
-    0 2px 2px rgba(178, 0, 255, 0.2),
-    0 1px 2px rgba(178, 0, 255, 0.2);
 }
 
 @keyframes gradient {
@@ -104,5 +101,8 @@ body {
   100% {
     background-position: 100%;
   }
+}
+.glowing-navbar { /* or any other color you want */
+  box-shadow: 0 0 2px 2px rgba(127, 0, 255, 0.2);
 }
 </style>
