@@ -12,15 +12,15 @@ defineProps<{
 
     <main>
         <!--Portfolio grid starts here-->
-        <section class="container py-16 shadow-lg rounded-lg dark:bg-zinc-900">
+        <section class="container portfolioimages dark:bg-zinc-900">
             <div class="grid sm:grid-cols-2 gap-4"></div>
                 <div class="col-span-1">
-                    <div v-if="image" class="w-full h-[350px] relative">
+                    <div v-if="image" class="w-full h-[180px] relative">
                     <!--Portfolio image-->
-                    <img :src="image" alt="Blog Thumbnail" class="w-full h-full absolute object-cover">
+                    <img :src="image" alt=" Thumbnail" class="rounded-t-lg w-full h-full absolute object-contain pt-8">
                     </div>
                 </div>
-            <!--Blog Contents-->
+            <!--portfolio Contents-->
             <div class="p-5">
                 <h3 class="animated-text text-2xl font-bold mb-3">{{ title }}</h3>
                 <p v-if="tag" class="font-bold text-zinc-700 dark:text-zinc-200">{{ tag }}</p>

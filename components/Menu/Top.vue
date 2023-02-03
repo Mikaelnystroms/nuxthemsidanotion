@@ -10,11 +10,11 @@ const setColorTheme = (newTheme: Theme) => {
             <NuxtLink to="/" class="saturate-150 transition duration-500 hover:scale-110 h-10 w-10">
                 <img src="~/assets/Iconsax/Linear/fd2.svg"/>
             </NuxtLink>
-            <ul class="gap-5 py-2 flex rounded-full px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10 transition animated-text">
+            <ul class="gap-5 py-2 flex rounded-full px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10 transition animated-top">
                 <li class="font-medium nuxt-link-exact-active"><NuxtLink to="/">Home</NuxtLink></li>
                 <li class="font-medium nuxt-link-exact-active"><NuxtLink to="/blog">Blog</NuxtLink></li>
                 <li class="font-medium nuxt-link-exact-active"><NuxtLink to="/about">About</NuxtLink></li>
-                <li class="font-medium nuxt-link-exact-active"><NuxtLink to="/mywork">Projects<span class="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-indigo-500/0 via-indigo-500/40 to-indigo-500/0 dark:from-indigo-400/0 dark:via-indigo-400/40 dark:to-indigo-400/0"></span></NuxtLink></li>
+                <li class="font-medium nuxt-link-exact-active"><NuxtLink to="/mywork">Projects</NuxtLink></li>
             </ul>
             <button class="ml-5" @click="setColorTheme($colorMode.preference == 'dark' ? 'light' : 'dark')">
               <svg

@@ -19,7 +19,7 @@
                                     <h1 class="text-4xl font-bold tracking-normal text-zinc-800 dark:text-zinc-100 sm:text-5xl">
                                         I'm <span class="animated-text">Mikael Nyström</span>
                                         <br>
-                                        I live in Sweden, I am a fast learner and a hopeless optimist
+                                        I live in Sweden, I'm a positive tech enthusiast and a fast learner.
                                     </h1>
                                     <div class="text-lato mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
                                         <p>For as long as I can remember i've been interested in gadgets and technology. Since I was little I've been teaching my family what they can do with their electronics, and how to do it. My love for both teaching and technology has only gotten stronger since and I believe technology can be used to make the world better.</p>
