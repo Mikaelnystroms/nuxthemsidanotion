@@ -11,7 +11,7 @@
                                 <div class="flex justify-center lg:col-span-5">
                                     <div class="pt-2 lg:pl-10">
                                         <div class="max-w-xs px-2.5">
-                                            <img src="~/assets/vinkningliten 2.svg" alt="bild av mig" class="saturate-150 transition duration-500 hover:scale-110" style="color: transparent;">
+                                            <img src="~/assets/vs2.svg" alt="bild av mig" class="saturate-150 transition duration-500 hover:scale-110" style="color: transparent;">
                                         </div>
                                     </div>
                                 </div>
