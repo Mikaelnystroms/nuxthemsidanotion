@@ -22,9 +22,9 @@ defineProps<{
                     </div>
                 </div>
             <!--Blog Contents-->
-            <div class="p-1 shadow-lg rounded-lg">
-                <h3 class="text-lato text-xl tracking-normal font-semibold mb-3 dark:text-zinc-200 pt-2">{{ title }}</h3>
-                <p v-if="excerpt" class="text-lato tracking-normal text-sm mb-3 text-zinc-600 dark:text-zinc-400 pb-1">{{ excerpt }}</p>
+            <div class="p-2 shadow-lg rounded-lg">
+                <h3 class="text-lato text-xl tracking-normal font-semibold mb-2 dark:text-zinc-200 pt-2">{{ title }}</h3>
+                <p v-if="excerpt" class="text-lato tracking-normal font-semibold py-1 text-base text-zinc-600 dark:text-zinc-400">{{ excerpt }}</p>
             </div>
         </section>
     </NuxtLink>

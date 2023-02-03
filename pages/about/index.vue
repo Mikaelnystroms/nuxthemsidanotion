@@ -90,7 +90,7 @@
                                     <div class="flex justify-center">
                                         <ul role="list" class="space-y-6">
                                             <li>
-                                                <a class="group inline-flex items-center text-sm font-medium tracking-wide text-zinc-800 transition duration-300 hover:scale-125 hover:text-indigo-500 dark:text-zinc-200 dark:hover:text-indigo-500" href="https://linkedin.com/in/mikael-nyström-07179293">
+                                                <a class="group inline-flex items-center text-sm font-medium tracking-wide text-zinc-800 transition duration-300 hover:scale-125 hover:text-indigo-500 dark:text-zinc-200 dark:hover:text-indigo-500" href="https://linkedin.com/in/mikael-nyström-07179293" target="_blank">
                                                     <img src="~/assets/Iconsax/Linear/personalcard.svg">
                                                         <span class="ml-4">Connect on Linkedin</span>
                                                 </a>
