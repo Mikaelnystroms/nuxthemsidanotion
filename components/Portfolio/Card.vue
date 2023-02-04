@@ -24,7 +24,7 @@ defineProps<{
             <div class="p-5">
                 <h3 class="animated-text text-2xl font-bold mb-3">{{ title }}</h3>
                 <p v-if="tag" class="font-bold text-zinc-700 dark:text-zinc-200">{{ tag }}</p>
-                <p v-if="excerpt" class="text-lato mb-3 py-2 text-zinc-600 dark:text-zinc-400">{{ excerpt }}</p>
+                <p v-if="excerpt" class="text-lato tracking-normal font-semibold py-1 text-base text-zinc-600 dark:text-zinc-400">{{ excerpt }}</p>
             </div>
         </section>
     </main>

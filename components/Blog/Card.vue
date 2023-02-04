@@ -14,11 +14,11 @@ defineProps<{
         <NuxtLink :to="`/blog/${slug}`">
         <!--Blog grid starts here-->
         <section class="container blogimages dark:bg-zinc-900">
-            <div class="grid sm:grid-cols-3"></div>
+            <div class="grid sm:grid-cols-3 mx-auto"></div>
                 <div class="col-span-1 shadow-lg">
                     <div v-if="image" class="w-full h-[180px] relative">
                     <!--Blog image-->
-                    <img :src="image" alt="Blog Thumbnail" class="rounded-t-lg w-full h-full absolute object-cover">
+                    <img :src="image" alt="Blog Thumbnail" class="rounded-xl w-full h-full absolute object-cover">
                     </div>
                 </div>
             <!--Blog Contents-->
