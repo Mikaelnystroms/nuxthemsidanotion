@@ -35,14 +35,14 @@ const setColorTheme = (newTheme: Theme) => {
 object-fit: cover;
   border-radius: 8px;
   cursor: pointer;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   transition: 600ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 .blogimages:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 .portfolioimages{
-object-fit: fill;
+object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
