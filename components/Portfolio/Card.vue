@@ -5,7 +5,6 @@ defineProps<{
     image: string;
     excerpt?: string;
     tag: string;
-    link: string;
 }>();
 </script>
 
@@ -26,7 +25,6 @@ defineProps<{
                 <h3 class="text-lato text-xl tracking-normal font-semibold dark:text-zinc-200 py-2">{{ title }}</h3>
                 <p v-if="tag" class="font-bold text-zinc-700 dark:text-zinc-200">{{ tag }}</p>
                 <p v-if="excerpt" class="text-lato tracking-normal font-semibold py-1 text-base text-zinc-600 dark:text-zinc-400">{{ excerpt }}</p>
-                <p v-if="link" class="text-lato tracking-normal font-semibold py-1 text-base text-zinc-600 dark:text-zinc-400"><a href={{ link }}></a></p>
             </div>
         </section>
     </main>
