@@ -13,6 +13,7 @@ const { data: projects } = await useFetch('https://notion-api.splitbee.io/v1/tab
                     :excerpt="project.Text"
                     :image="project['Files & media'][0].url"
                     :tag="project.Tag"
+                    :link="project.URL"
                 />
             </div>
         </section>
