@@ -26,7 +26,7 @@ defineProps<{
                 <h3 class="text-lato text-xl tracking-normal font-semibold py-2 text-zinc-600 dark:text-zinc-200">{{ title }}</h3>
                 <p v-if="tag" class="font-bold text-zinc-600 dark:text-zinc-400">{{ tag }}</p>
                 <p v-if="excerpt" class="text-lato tracking-normal font-semibold py-1 text-base text-zinc-600 dark:text-zinc-200">{{ excerpt }}</p>
-                <NuxtLink v-if="link" class="text-lato tracking-normal font-semibold py-1 text-base text-zinc-600 dark:text-zinc-200" :href="link" >Live Demo</NuxtLink>
+                <NuxtLink v-if="link" class="text-lato tracking-normal font-semibold py-1 text-base text-zinc-600 dark:text-zinc-200" :href="link" target="_blank" >Live Demo</NuxtLink>
             </div>
         </section>
     </main>
